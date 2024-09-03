@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div className="p-5 px-5 flex justify-between shadow-md">
-      <img src="/logo.svg" alt="LOGO" />
+      <img height={40} width={175} src="/logo.svg" alt="LOGO" />
 
       {isSignedIn ? (
         <div className="flex gap-4 items-center">
